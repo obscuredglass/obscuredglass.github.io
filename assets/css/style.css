@@ -1,5 +1,10 @@
+body {
+  background-image: url("../images/background.png");
+}
+
 .jumbotron {
   text-align: center;
+  opacity: 0.5;
 }
 
 p {
@@ -7,5 +12,25 @@ p {
 }
 
 h1 {
+  font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+  color: #2f4260;
+  background-color: #5f9fa5;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  border-radius: 30px;
+}
+
+h3 {
+  color: #5f9fa5;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+  background-color: #2f4260;
+  border-radius: 30px;
+}
+
+.navbar {
   font-family: 'Barlow', sans-serif;
 }
